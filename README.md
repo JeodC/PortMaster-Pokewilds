@@ -5,6 +5,7 @@ This port of Pokewilds is made possible with the use of Westonpack by BinaryCoun
 After installing the port, download the Windows game from https://github.com/SheerSt/pokewilds/releases and extract the `mods` and `app` folders, as well as `settings.txt`, into `ports/pokewilds/bin`.
 
 You also need to install the following runtimes using the PortMaster app:
+- Westonpack 0.2 (weston_pkg_0.2.aarch64.squashfs) -- If you're not using a mainline firmware
 - Java 17.0.13 (zulu17.54.21-ca-jre17.0.13-linux.aarch64.squashfs)
 
 ## Default Gameplay Controls

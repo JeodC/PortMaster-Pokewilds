@@ -65,7 +65,6 @@ else
     if [[ -d "$GAMEDIR/patch" ]]; then
         # Patch in the modified classes to disable gamepad
         "$GAMEDIR/tools/7za" u "${JAR_PACKAGE}" "$GAMEDIR"/patch/*
-        rm -rf "$GAMEDIR/patch"
     fi
 fi
 
